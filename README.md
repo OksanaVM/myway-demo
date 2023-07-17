@@ -9,6 +9,8 @@
 
 В качестве БД используется PostgreSQL. Подключение в application.properties
 Остальное: Vaadin 23, Java 17, Maven, Spring Boot 3 
+
+
 ![image](https://github.com/OksanaVM/myway-demo/assets/79106047/5a336fdd-fc37-40a1-8572-ef34f9ef2cad)
 
 
