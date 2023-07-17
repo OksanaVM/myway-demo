@@ -10,10 +10,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @AllArgsConstructor
-//@NoArgsConstructor
 public class Counter {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "counter_id_generator")
