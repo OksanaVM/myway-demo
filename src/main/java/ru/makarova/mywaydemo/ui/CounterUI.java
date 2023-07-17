@@ -21,7 +21,6 @@ public class CounterUI extends VerticalLayout {
 
     @Autowired
     public CounterUI(CounterRepository counterRepository) {
-
         this.counterRepository = counterRepository;
 
         add(counterField, incrementButton);
