@@ -14,6 +14,7 @@ import ru.makarova.mywaydemo.back.CounterRepository;
 public class CounterUI extends VerticalLayout {
 
     private final CounterRepository counterRepository;
+
     private final TextField counterField = new TextField("Поставь значение");
     private final Button incrementButton = new Button("Нажми меня");
 
